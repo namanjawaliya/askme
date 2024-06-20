@@ -36,7 +36,7 @@ const Home = () => {
   ]);
 
   return (
-    <main className="flex flex-col max-h-[92vh]">
+    <main className="flex flex-col max-h-[92vh] max-h-[92dvh]">
       <div className="overflow-auto px-4 py-6">
         <ChatSection chats={chats} />
       </div>
